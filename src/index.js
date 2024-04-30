@@ -2,6 +2,7 @@ import './style.css';
 
 import home from "./components/home-component/home-module";
 import menu from "./components/menu-component/menu-module";
+import about from "./components/about-component/about-module";
 
 document.addEventListener('DOMContentLoaded', ()=>{
     const container = document.getElementById('content');
@@ -16,7 +17,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
         container.innerHTML = '';
         container.appendChild(menu());
     })
-    
+    const aboutButton = document.getElementById('about');
+    aboutButton.addEventListener('click', () => {
+        container.innerHTML = '';
+        container.appendChild(about());
+    })
   
     
 });

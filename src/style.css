@@ -58,3 +58,7 @@ button:hover {
     height: 200px;
     width: auto;
 }
+.about-image {
+    height: 50vw;
+    width: auto;
+}
