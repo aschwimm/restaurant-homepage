@@ -22,6 +22,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
         container.innerHTML = '';
         container.appendChild(about());
     })
-  
-    
 });
